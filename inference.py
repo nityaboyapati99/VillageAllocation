@@ -36,8 +36,8 @@ TASK_IDS = ["easy", "medium", "hard"]
 # ---------------------------------------------------------------------------
 # Read required env vars (as specified by hackathon)
 # ---------------------------------------------------------------------------
-API_BASE_URL: str = os.environ.get("API_BASE_URL", "https://api.openai.com/v1")
-MODEL_NAME:   str = os.environ.get("MODEL_NAME",   "gpt-4o-mini")
+API_BASE_URL: str = os.environ.get("API_BASE_URL", "https://router.huggingface.co/v1")
+MODEL_NAME:   str = os.environ.get("MODEL_NAME",   "Qwen/Qwen2.5-72B-Instruct")
 # HF_TOKEN is the primary key; fall back to OPENAI_API_KEY for local dev
 HF_TOKEN:     str = (
     os.environ.get("HF_TOKEN")
