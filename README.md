@@ -1,3 +1,19 @@
+---
+title: Village Welfare Allocator
+emoji: 🏡
+colorFrom: green
+colorTo: blue
+sdk: docker
+pinned: false
+license: mit
+tags:
+  - openenv
+  - rural-india
+  - welfare
+  - resource-allocation
+  - fastapi
+---
+
 # Village Welfare Allocator
 
 **OpenEnv Hackathon Round 1 Submission**
