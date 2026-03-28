@@ -1,0 +1,34 @@
+name: village-welfare-allocator
+version: "1.0.0"
+description: >
+  An OpenEnv environment simulating welfare resource allocation in rural Indian
+  Gram Panchayats. An AI agent must fairly distribute MGNREGA work days, PM Awas
+  housing slots, and ration card upgrades across village families based on need,
+  eligibility, and equity — while detecting fraudulent applications in hard mode.
+author: "Shiva Chandra & Nitya Boyapati"
+tags:
+  - rural-india
+  - welfare
+  - resource-allocation
+  - fairness
+  - real-world
+tasks:
+  - id: easy
+    name: "MGNREGA Allocation"
+    difficulty: easy
+    success_threshold: 0.7
+  - id: medium
+    name: "Multi-Scheme Allocation"
+    difficulty: medium
+    success_threshold: 0.65
+  - id: hard
+    name: "Full Village Allocation with Anomalies"
+    difficulty: hard
+    success_threshold: 0.55
+observation_space:
+  type: structured
+  description: "Village state with family profiles, available resources, and scheme rules"
+action_space:
+  type: structured
+  description: "Allocation decisions: which families get how much of each resource"
+reward_range: [0.0, 1.0]
