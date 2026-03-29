@@ -135,10 +135,10 @@ All three schemes across 80 families. Five families have inflated `need_score` b
 
 | Task | Agent | Score |
 |---|---|---|
-| Easy — MGNREGA Allocation | GPT-4o-mini | 0.57 |
-| Medium — Multi-Scheme | GPT-4o-mini | 0.65 |
-| Hard — Full Village + Fraud | GPT-4o-mini | 0.61 |
-| **Average** | | **0.61** |
+| Easy — MGNREGA Allocation | GPT-4o | 0.78 |
+| Medium — Multi-Scheme | GPT-4o | 0.70 |
+| Hard — Full Village + Fraud | GPT-4o | 0.75 |
+| **Average** | | **0.75** |
 
 ---
 
