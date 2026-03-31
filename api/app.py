@@ -44,7 +44,7 @@ def _get_env() -> VillageWelfareEnv:
 # ---------------------------------------------------------------------------
 
 class ResetRequest(BaseModel):
-    task_id: str  # "easy" | "medium" | "hard"
+    task_id: str = "easy"  # "easy" | "medium" | "hard"
 
 
 class GraderRequest(BaseModel):
